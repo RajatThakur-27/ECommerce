@@ -1,0 +1,28 @@
+@import "../../css-config/mixins.scss";
+
+.main{
+    max-width: 100vh;
+    max-height: 100vh;
+    margin: 0 auto;
+    background-color :honeydew;
+    @include md {
+        max-width: 1500px;
+        max-height: 1200px;
+    }
+    h2{
+        color: rgb(96, 17, 18);
+        margin-top: 10px;
+        padding-top: 5px;
+        justify-content:center;
+        align-items: center;
+    }
+    h3{
+        color:blue;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+    p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
