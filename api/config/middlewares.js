@@ -5,7 +5,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:3000', 'https://e-commerce-client-tau-one.vercel.app/'],
+      origin: *,
       headers: '*',
     },
   },
